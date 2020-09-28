@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: gray;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+.img-section {
+  text-align: center;
+}
+
+.img-section img {
+  width: 20%;
+  height: auto;
+  margin-bottom: 45px;
+}
+
+a.button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+}
+
+a.button:hover {
+  transition: all 0.2s;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.animate {
+  animation: animate 5s infinite linear;
+  position: relative;
+}
+@keyframes animate {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -1em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.5em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
+}
+
+input{
+  outline: 0;
+  background-color: transparent;
+  border: 0.1em solid #ffffff;
+  padding: 0.35em 1.2em;
+  width: 10%;
+  color: white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}

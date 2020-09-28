@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Rotating image">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Adam Szymanski">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rrecruitment task</title>
+
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  
+  <!-- Custom CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="title">This is dog, You can play with him</h1>
+  </header>
+
+  <section class="img-section">
+    <img src="img/dog.png" class="dog-img" alt="Dog image">
+    <div class="btn-panel90">
+      <a class="button animate" id="rotate-left90">Rotate left 90&deg;</a>
+      <a class="button animate" id="rotate-reset">Reset position</a>
+      <a class="button animate" id="rotate-right90">Rotate right 90&deg</a>
+    </div>
+
+    <div class="btn-panel-custom">
+      <a class="button animate" id="rotate-left-custom">Rotate left</a>
+      <input type="number" class="degs animate" placeholder="Deg">
+      <a class="button animate" id="rotate-right-custom">Rotate right</a>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
